@@ -3,6 +3,11 @@ Enterprise RAG Assistant
 
 Enterprise-grade RAG-based assistant template using Python + FastAPI.
 
+Overview
+- Built an enterprise-grade RAG assistant using vector search and hybrid retrieval.
+- Developed scalable Python FastAPI backends for LLM applications, containerized and deployed with Kubernetes and CI/CD.
+- Optimized retrieval and inference pipelines for performance and cost, collaborating with cross-functional teams to run reliable production AI systems.
+
 Description
 - Developed enterprise-grade RAG-based assistant using vector search and hybrid retrieval pipelines.
 - Built scalable backend services for LLM-powered applications using Python and FastAPI.
@@ -30,3 +35,4 @@ uvicorn app.main:app --reload --port 8000
 Notes
 - The `app` contains a minimal FastAPI stub. Implement vector DB, retriever, and LLM inference in `app/services/`.
 - CI/workflow and Kubernetes manifests are included as starting points.
+
